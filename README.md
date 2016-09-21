@@ -13,6 +13,6 @@
 | /giveall | `<id> <nombre>` | Give un item a tous les joueurs du serveur | OP |
 | /kickall | | Kick tous les joueurs du serveur | OP |
 | /world | `<nom>` | Teleporte sur un monde | OP |
-| /coords | | Donne vos coordonnees | OP |
+| /coords | | Donne vos coordonnees | Default |
 | /fly | `<player>` | Donne la permission de voler a un joueur | OP |
 | /mute | `<player> <temps>` | Mute un joueur | OP |
