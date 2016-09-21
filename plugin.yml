@@ -1,0 +1,84 @@
+name: ManyCommands
+main: MC\Main
+version: "1.0.0"
+api: [1.0.0]
+author: LCraftPE
+
+commands:
+  heal:
+    permission: lc.heal
+    description: "Restaure la vie d'un joueur"
+  feed:
+    permission: lc.feed
+    description: "Restaure la barre de faim d'un joueur"
+  clear:
+    permission: lc.clear
+    description: "Reinitialise l'inventaire d'un joueur"
+  spawn:
+    permission: lc.spawn
+    description: "Teleporte au spawn du serveur"
+  broadcast:
+    permission: lc.broadcast
+    description: "Broadcast un message"
+  tpall:
+    permission: lc.tpall
+    description: "Teleporte tous les joueurs du serveur"
+  giveall:
+    permission: lc.giveall
+    description: "Give un item a tous les joueurs du serveur"
+  kickall:
+    permission: lc.kickall
+    description: "Kick tous les joueurs du serveur"
+  world:
+    permission: lc.world
+    description: "Teleporte sur un monde"
+  coords:
+    permission: lc.coords
+    description: "Donne vos coordonnees"
+  fly:
+    permission: lc.fly
+    description: "Donne la permission de voler a un joueur"
+  mute:
+    permission: lc.mute
+    description: "Mute un joueur"
+
+permissions:
+  lc.heal:
+    default: op
+    description: Allow /heal
+  lc.feed:
+    default: op
+    description: Allow /feed
+  lc.clear:
+    default: op
+    description: Allow /clear
+  lc.spawn:
+    default: true
+    description: Allow /spawn
+  lc.broadcast:
+    default: op
+    description: Allow /broadcast
+  lc.tpall:
+    default: op
+    description: Allow /tpall
+  lc.giveall:
+    default: op
+    description: Allow /giveall
+  lc.kickall:
+    default: op
+    description: Allow /kickall
+  lc.world:
+    default: op
+    description: Allow /world
+  lc.coords:
+    default: true
+    description: Allow /coords
+  lc.fly:
+    default: op
+    description: Allow /fly
+  lc.burn:
+    default: op
+    description: Allow /burn
+  lc.mute:
+    default: op
+    description: Allow /mute
