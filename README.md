@@ -15,4 +15,4 @@
 | /world | `<nom>` | Teleporte sur un monde | OP |
 | /coords | | Donne vos coordonnees | OP |
 | /fly | `<player>` | Donne la permission de voler a un joueur | OP |
-| /mute | `<player>` | Mute un joueur | OP |
+| /mute | `<player> <temps>` | Mute un joueur | OP |
