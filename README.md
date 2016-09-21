@@ -2,7 +2,7 @@
 >> Ce plugin rajoute à votre serveur des commandes essentielles, comme :
 
 
-| Default command | Parameter | Description | Default Permission |
+| Commandes | Parametres | Descriptions | Permissions |
 | :-----: | :-------: | :---------: | :-------: |
 | /heal | `<player>` | Restaure la vie d'un joueur | OP |
 | /feed | `<player>` | Restaure la barre de faim d'un joueur | OP |
